@@ -1,0 +1,21 @@
+name: "KoInsight"
+version: 0.1.2
+slug: "koinsight"
+description: "KoInsight brings your KOReader reading stats to life with a clean, web-based dashboard. "
+url: https://github.com/GeorgeSG/KoInsight
+arch:
+  - amd64
+  - aarch64
+  - armhf
+  - i386
+  - armv7
+ports:
+  3000/tcp: 3000
+map:
+  - type: data
+    path: "/app/data"
+    read_only: false
+
+options: {}
+schema: {}
+image: "ghcr.io/georgesg/koinsight:v0.1.2"
