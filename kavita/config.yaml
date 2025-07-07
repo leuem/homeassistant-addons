@@ -1,0 +1,20 @@
+name: "Kavita"
+version: 0.8.7
+slug: "kavita"
+description: "Kavita is an open-source, self-hosted digital library management system primarily designed for managing and reading comics, manga, and ebooks. It is built to provide a streamlined and user-friendly experience for organizing and accessing a personal collection of digital reading materials."
+url: https://wiki.kavitareader.com/getting-started/
+arch:
+  - amd64
+  - aarch64
+  - armhf
+  - i386
+  - armv7
+ports:
+  5000/tcp: 5000
+map:
+  - type: config
+    read_only: false
+  - type: share
+    read_only: False
+options: {}
+schema: {}

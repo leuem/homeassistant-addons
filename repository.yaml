@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: leuem's Addons
+url: 'https://github.com/leuem/homeassistant-addons'
+maintainer: leuem <yesolgalov@gmail.com>
