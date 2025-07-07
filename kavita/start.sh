@@ -1,14 +1,13 @@
 #!/bin/sh
 
-UUID="8d94cfa4"
-SLUG="kavita"
+CFG_PATH="/config/addons_config/$HOSTNAME"
 
-CFG_PATH="/config/addons_config/${UUID}_${SLUG}"
-
+# Создаём папку для конфига (если нет)
 mkdir -p "$CFG_PATH"
 rm -rf /kavita/config
 ln -s "$CFG_PATH" /kavita/config
 
+# Создаём папки для контента (в /share)
 mkdir -p /share/kavita/books
 mkdir -p /share/kavita/manga
 mkdir -p /share/kavita/comics
